@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Socket from '../services/socket';
+import Chat from './Chat';
 import './App.css';
 
 class App extends Component {
@@ -8,6 +8,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1>Chat Room</h1>
+          <main>
+            <Chat />
+          </main>
         </header>
       </div>
     );
